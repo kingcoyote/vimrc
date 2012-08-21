@@ -15,6 +15,7 @@ map <C-J> <C-W>j
 map <C-K> <C-W>k
 map <C-L> <C-W>l
 
+map <C-p> :Bp<Enter>
 
 if filereadable(".vim.custom")
     so .vim.custom
